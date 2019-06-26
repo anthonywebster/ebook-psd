@@ -165,6 +165,7 @@
 
 .box-tres-strong {
 	text-align: center;
+	margin-bottom: 25px;
 }
 
 .strong-given {
@@ -175,9 +176,9 @@
     font-weight: 600;
 }
 
-.column-padding {
+/*.column-padding {
 	padding: 30px 42px 0px 88px;
-}
+}*/
 
 .box-tres-column {
 
@@ -258,7 +259,8 @@
     position: absolute;
     width: 456px;
     height: 259px;
-    box-shadow: 15px 25.981px 60px rgba(29, 39, 35, 0);
+    /*box-shadow: 15px 25.981px 60px rgba(29, 39, 35, 0);*/
+    box-shadow: 20px 20px 60px rgba(0,0,0,0.7);
     /*background-color: #262324;*/
     top: 227px;
     padding: 17px 25px 0px 41px;
@@ -309,20 +311,15 @@
     border-radius: 50px;
 }
 
-.box-cuatro-dos {
-	/*background-image: url(imagenes/rectangulo-fondo-dos.png);*/
+.box-cuatro-dos {	
     position: absolute;
     width: 303px;
-    height: 360px;
-    /*box-shadow: 15px 25.981px 60px rgba(38,35,36,0.75);*/
-    box-shadow: 15px 25.981px 60px rgba(29, 39, 35, 0);
-    /*background-color: #262324;*/
+    height: 360px;    
+    box-shadow: 20px 20px 60px rgba(0,0,0,0.7);
     background-color: #313131;
     padding: 37px 28px 37px 50px;
     top: 564px;
     left: 156px;
-
-
 }
 
 .box-cuatro-dos-text-big {
@@ -386,16 +383,13 @@
     height: 595px;
 }
 
-.box-cuatro-tres {
-	/*background-image: url(imagenes/rectangulo-fondo-tres.png);*/
+.box-cuatro-tres {	
 	padding: 26px 42px 6px 41px;
 	position: absolute;
     top: 570px;
-    left: -71px;
-    /*box-shadow: 15px 25.981px 60px rgba(38,35,36,0.75);
-	background-color: #262324;*/
+    left: -71px;    
 	background-color: #313131;
-	box-shadow: 15px 25.981px 60px rgba(29, 39, 35, 0);
+	box-shadow: 20px 20px 60px rgba(0,0,0,0.7);	
 	height: 246px
 }
 
@@ -520,15 +514,13 @@
 
 .box-caja-tres {
 	width: 229px;
-    height: 170px;
-    /*background-color: #494949;*/
+    height: 170px;    
     position: absolute;
     right: 160px;
     top: 155px;  
-    z-index: 3;
-    box-shadow: -30px 8.981px 49px rgba(38,35,36,0.75);
+    z-index: 3;    
+    box-shadow: 6px 15px 61px rgba(0,0,0,0.7);
     background-color: #313131;
-
 }    
 
 .box-caja-cuatro {
@@ -621,8 +613,266 @@
     border: 0px;
 }
 
-
+/*box-shadow: 20px 20px 60px rgba(0,0,0,0.7);*/
 
 
 
 /* &&&&&&&&&& FINALIZA CSS CUARTA ETAPA &&&&&&&&&&&*/
+
+
+
+
+
+
+/* &&&&&&&&&&&&&&&&& MEDIA QUERY MEDIA QUERY &&&&&&&&&&&&&&&&&&*/
+
+@media screen and (max-width: 1199px) {
+	.img-borde-derecha {
+		width: 447px;
+    	height: 522px;
+	}
+
+	.img-tactics {	    
+	    position: relative;    
+	    width: 410px;
+	    height: 532px;
+	    top: -639px;
+	    right: -59px;
+	}
+
+	.contenido-dos {
+		margin-top: 224px;
+	}
+
+	.strong {
+		font-size: 25px;
+    	line-height: 30px;
+	}
+
+	.box-teams {
+		margin-top: 12px;
+	}
+
+	.box-volume {
+		margin-top: 0px;
+    	margin-bottom: 23px;
+	}
+
+	.check {
+	    width: 50px;
+	    margin-right: 0px;
+	}
+
+	.text-insights {
+		padding-left: 15px;
+	}	
+
+	.button-get-ebook {
+		width: 448px
+	}
+
+	.contenido-uno-area-dos {
+	    margin-left: 125px;
+    	margin-top: 47px;
+	}
+
+	.box-text- {
+	    margin-bottom: 25px;	
+	}
+
+	.text-tactics {
+	    font-size: 19px;
+	    line-height: 25px;
+	    color: #ec3131;
+	    font-family: "Work Sans";
+	    font-weight: 400;
+	}
+
+	.check-dos {
+		height: 29px;
+	}
+
+	.img-borde-izquierda {
+	    width: 443px;
+	    height: 515px;
+	    position: relative;
+	    top: -101px;
+	    right: 0px;
+	}
+
+	.img-inside-uno {
+	    position: relative;
+	    top: -488px;
+	    left: 77px;
+	    width: 226px;
+	    height: 339px;
+	}
+
+	.img-inside-dos {
+	    width: 333px;
+	    height: 401px;
+	    position: relative;
+	    top: -810px;
+	    left: 77px;
+	}
+
+	.column-padding {
+		padding: 0px;
+	}
+
+	.box-cuatro-uno {
+		position: absolute;
+	    width: 388px;
+	    height: 263px;	    
+	    box-shadow: 20px 20px 60px rgba(0,0,0,0.7);	    
+	    top: 183px;
+	    padding: 17px 25px 0px 41px;
+	    left: 230px;
+	    background-color: #313131;
+	}
+
+	.text-cuatro-uno-big {
+		font-size: 16px;
+	    line-height: 28px;
+	    color: #929497;
+	    font-family: "Work Sans";
+	    font-weight: 400;
+	}
+
+	.box-cuatro-uno-strong {
+		margin-bottom: 7px;
+	}
+
+	.text-cuatro-uno-small {
+		font-size: 16px;
+	    line-height: 21px;
+	    color: #929497;
+	    font-family: "Work Sans";
+	    font-weight: 400;
+	    width: 184px;
+	}
+
+	.box-cuatro-uno-radius {
+	    width: 100px;
+	    height: 100px;
+	    border-radius: 50px;
+	    position: relative;
+	    right: -209px;
+	    top: -59px;
+	}
+
+	.box-cuatro-dos {
+		position: absolute;
+	    width: 288px;
+	    height: 360px;
+	    box-shadow: 20px 20px 60px rgba(0,0,0,0.7);
+	    background-color: #313131;
+	    padding: 29px 24px 37px 29px;
+	    top: 482px;
+	    left: 109px;
+	}
+
+	.box-cuatro-dos-strong {
+		margin-bottom: 11px;
+	}
+
+	.contenido-etapa-cuatro-tres {
+		margin-top: 330px;
+	}
+
+	.img-borde-izquierda-tres {
+		width: 447px;
+    	height: 534px;
+	}
+
+	.box-cuatro-tres {
+		padding: 26px 32px 6px 30px;
+	    position: absolute;
+	    top: 516px;
+	    left: -43px;
+	    background-color: #313131;
+	    box-shadow: 20px 20px 60px rgba(0,0,0,0.7);
+	    height: 246px;
+	    width: 409px;
+	}
+
+	.text-cuatro-tres-big {
+		width: 348px;
+	    height: 97px;
+	    font-size: 17px;
+	    line-height: 25px;
+	    color: #929497;
+	    font-family: "Work Sans";
+	    font-weight: 400;
+	}
+
+	.cont-box-text {
+		margin-top: 130px;
+    	padding: 0px 62px 0px 112px;
+	}
+
+	.box-caja-uno {
+		width: 156px;
+	    height: 147px;
+	    background-color: #494949;
+	    position: absolute;
+	    right: 161px;
+	    top: -30px;
+	}
+
+	.box-caja-dos {
+		width: 156px;
+	    height: 130px;
+	    background-color: #494949;
+	    position: absolute;
+	    right: 318px;
+	    top: 83px;
+	    opacity: 0.5;
+	    z-index: 0;
+	}
+
+	.box-caja-tres {
+		width: 246px;
+	    height: 197px;
+	    position: absolute;
+	    right: 114px;
+	    top: 155px;
+	    z-index: 3;
+	    box-shadow: 6px 15px 61px rgba(0,0,0,0.7);
+	    background-color: #313131;
+	}
+
+	.box-caja-cuatro {
+		width: 156px;
+	    height: 154px;
+	    background-color: #494949;
+	    position: absolute;
+	    right: 274px;
+	    top: 310px;
+	    opacity: 0.5;
+	    z-index: 0;
+	}
+
+	.box-caja-cinco {
+		width: 159px;
+	    height: 130px;
+	    background-color: #494949;
+	    position: absolute;
+	    right: 115px;
+	    top: 392px;
+	    /* opacity: 0.5; */
+	    z-index: 0;
+	}
+
+	.footer-box {
+		width: 130px;
+	    height: 143px;
+	    background-color: #313131;
+	    margin-right: 8px;
+	}
+}
+
+
+@media screen and (max-width: 991px) {
+
+}
