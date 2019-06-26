@@ -1,0 +1,628 @@
+/* &&&&&&&&&&& INICIA CSS PRIMERA ETAPA &&&&&&&&&&&&*/
+
+
+.fondo-total {
+	background-color: #252323;
+	height: 4393px;
+
+}
+
+.box-img-borde-rojo-tactics {
+	margin-top: 346px;
+}
+
+.img-borde-derecha {
+	width: 525px;
+    height: 595px;
+}
+
+.img-tactics {
+	width: 510px;
+    height: 610px;
+    position: relative;
+    top: -757px;
+    right: -59px;
+}
+
+.contenido-dos {
+	margin-top: 187px;
+    
+}
+
+.strong {
+	font-size: 30px;
+    line-height: 35px;
+    color: #ed3131;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.box-teams {
+	margin-top: 20px;
+	width: 328px;
+	color: white;
+}
+
+.box-volume {
+	margin-top: 24px;
+	margin-bottom: 27px;
+}
+
+.text-volume {
+	font-size: 20px;
+    letter-spacing: 2px;
+    width: 100px;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.box-tex-check {
+	display: flex;
+}
+
+.check {
+	width: 43px;
+    margin-right: 10px;
+}
+
+.rectángulo-uno {
+	position: relative;
+    left: -9px;
+    top: -5px;
+}
+
+.text p {
+	color: #929497;
+    font-family: "Work Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.button-get-ebook {
+	font-size: 16px;
+    line-height: 8px;
+    color: #ffffff;
+    font-family: sans-serif;
+    height: 53px;
+    background-color: #ec3131;
+    text-align: center;
+    width: 540px;
+    border: 0px;
+    font-weight: 800;
+}
+
+.contenedor-uno {
+	height: 950px
+}
+
+
+/* &&&&&&&&& FINALIZA CSS PRIMERA ETAPA &&&&&&&&&&&&*/
+
+
+
+
+
+
+/* &&&&&&&&&& INICIA CSS SEGUNDA ETAPA &&&&&&&&&&&*/
+.contenedor-dos {
+	margin-bottom: 30px;
+}
+.contenido-uno-area-dos {
+	margin-left: 125px;
+    margin-top: 42px;
+}
+
+.contenido-etapa-dos {
+	height: 550px;
+}
+
+.box-text- {
+	margin-bottom: 50px;
+}
+
+.text-tactics {
+	font-size: 21px;
+    line-height: 33px;
+    color: #ec3131;
+    font-family: "Work Sans";
+    font-weight: 400;
+}
+
+.img-borde-izquierda {
+	width: 535px;
+    height: 615px;
+    position: relative;
+    top: -101px;
+    right: -12px;
+}
+
+.img-inside-uno {
+	position: relative;
+    top: -573px;
+    left: 99px;
+    width: 311px;
+    height: 404px;
+}
+
+.img-inside-dos {
+	width: 396px;
+    height: 514px;
+    position: relative;
+    top: -965px;
+    left: 105px;
+}
+
+
+
+/* &&&&&&&&&& FINALIZA CSS SEGUNDA ETAPA &&&&&&&&&&&*/
+
+
+
+
+
+/* &&&&&&&&&& INICIA CSS TERCERA  ETAPA &&&&&&&&&&&*/
+
+.box-tres-strong {
+	text-align: center;
+}
+
+.strong-given {
+	font-size: 26px;
+    line-height: 48px;
+    color: #ed3131;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.column-padding {
+	padding: 30px 42px 0px 88px;
+}
+
+.box-tres-column {
+
+}
+
+.box-column-cuadro {
+	width: 214px;
+    height: 144px;
+    background-color: #313131;
+}
+
+.box-column-strong {
+	text-align: center;	
+	margin-top: 10px;
+}
+
+.stron-box-column {
+	font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    font-family: "Work Sans";
+    font-weight: 400;
+}
+
+.text-box-column {
+	font-size: 16px;
+    line-height: 21px;
+    color: #929497;
+    font-family: "Work Sans";
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+
+
+/* &&&&&&&&&& FINALIZA CSS TERCERA ETAPA &&&&&&&&&&&*/
+
+
+
+
+
+
+/* &&&&&&&&&& INICIA CSS CUARTA  ETAPA &&&&&&&&&&&*/
+
+.contenedor-cuatro .box-img-borde-rojo-tactics {
+	margin-top: 0px;
+}
+
+.contenedor-cuatro .box-get-ebook {
+	position: relative;
+    left: 320px;
+    top: 55px;
+} 
+
+.contenedor-cuatro .button-get-ebook {
+	width: 370px;
+    height: 48px;
+    background-color: #ec3131;
+    font-size: 16px;
+    line-height: 8px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 800;		
+}
+
+.box-cuatro-uno {
+	/*background-image: url(imagenes/rectangulo-fondo-uno.png);
+    position: absolute;
+    width: 456px;
+    height: 259px;
+    box-shadow: 15px 25.981px 60px rgba(38,35,36,0.75);
+    background-color: #262324;
+    top: 227px;
+    padding: 17px 25px 0px 41px;
+    left: 272px;*/
+
+    position: absolute;
+    width: 456px;
+    height: 259px;
+    box-shadow: 15px 25.981px 60px rgba(29, 39, 35, 0);
+    /*background-color: #262324;*/
+    top: 227px;
+    padding: 17px 25px 0px 41px;
+    left: 272px;
+    background-color: #313131;
+}
+
+.box-cuatro-uno-text-big{
+
+}
+
+.text-cuatro-uno-big {
+	font-size: 16px;
+    line-height: 30px;
+    color: #929497;
+    font-family: "Work Sans";
+    font-weight: 400;
+}
+
+.strong-cuatro-uno {
+	font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    font-family: "Work Sans";
+    font-weight: 400;
+}
+
+.text-cuatro-uno-small {
+	font-size: 16px;
+    line-height: 21px;
+    color: #929497;
+    font-family: "Work Sans";
+    font-weight: 400;
+}	
+
+.box-cuatro-uno-radius {
+	width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: relative;
+    right: -281px;
+    top: -12px;
+}
+
+.img-rostro {
+	width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.box-cuatro-dos {
+	/*background-image: url(imagenes/rectangulo-fondo-dos.png);*/
+    position: absolute;
+    width: 303px;
+    height: 360px;
+    /*box-shadow: 15px 25.981px 60px rgba(38,35,36,0.75);*/
+    box-shadow: 15px 25.981px 60px rgba(29, 39, 35, 0);
+    /*background-color: #262324;*/
+    background-color: #313131;
+    padding: 37px 28px 37px 50px;
+    top: 564px;
+    left: 156px;
+
+
+}
+
+.box-cuatro-dos-text-big {
+
+}
+
+.text-cuatro-dos-big {
+	font-size: 16px;
+    line-height: 28px;
+    color: #929497;
+    font-family: "Work Sans";
+    font-weight: 400;
+}
+
+.box-cuatro-dos-strong {
+
+}
+
+.strong-cuatro-dos {
+	font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    font-family: "Work Sans";
+    font-weight: 400;
+}
+
+.box-cuatro-dos-text-small {
+
+}
+
+.text-cuatro-dos-small {
+	font-size: 16px;
+    line-height: 21px;
+    color: #929497;
+    font-family: "Work Sans";
+    font-weight: 400;
+    width: 172px;
+}
+
+.box-cuatro-dos-radius {
+	position: relative;
+    /*top: 349px;
+    left: 161px;*/
+}
+
+.radius-cuatro-dos {
+	width: 90px;
+    height: 90px;
+    background-color: #ec3131;
+    border-radius: 50px;
+    position: absolute;
+    right: 31px;
+}
+
+.contenido-etapa-cuatro-tres {
+	margin-top: 382px;
+}
+
+.img-borde-izquierda-tres {
+	width: 525px;
+    height: 595px;
+}
+
+.box-cuatro-tres {
+	/*background-image: url(imagenes/rectangulo-fondo-tres.png);*/
+	padding: 26px 42px 6px 41px;
+	position: absolute;
+    top: 570px;
+    left: -71px;
+    /*box-shadow: 15px 25.981px 60px rgba(38,35,36,0.75);
+	background-color: #262324;*/
+	background-color: #313131;
+	box-shadow: 15px 25.981px 60px rgba(29, 39, 35, 0);
+	height: 246px
+}
+
+.box-cuatro-tres-text-big {
+
+}
+
+.text-cuatro-tres-big {
+	width: 438px;
+    height: 85px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #929497;
+    font-family: "Work Sans";
+    font-weight: 400;
+}
+
+.box-cuatro-tres-strong {
+
+}
+
+.strong-cuatro-tres {
+	font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    font-family: "Work Sans";
+    font-weight: 400;
+}
+
+.box-cuatro-tres-text-small {
+
+}
+
+.text-cuatro-tres-small {
+	font-size: 16px;
+    line-height: 21px;
+    color: #929497;
+    font-family: "Work Sans";
+    font-weight: 400;
+    width: 186px;
+    margin-top: 5px;
+}
+
+.box-cuatro-tres-radius {
+	position: relative;
+}
+
+.radius-cuatro-tres {
+	width: 90px;
+    height: 90px;
+    background-color: #ec3131;
+    border-radius: 50px;
+    position: absolute;
+    right: 31px;
+    top: -22px;
+}
+
+.box-posicion {
+	position: relative;
+}
+
+.contenedor-cinco {
+
+}
+
+.cont-box-text {
+	margin-top: 130px;
+    padding: 0px 0px 0px 146px;
+}
+
+.box-text-red {
+
+}
+
+.text-red {
+	ont-size: 21px;
+    line-height: 33px;
+    color: #ec3131;
+    font-family: "Work Sans";
+    font-weight: 400;
+}
+
+.box-text-normal {
+
+}
+
+.text-normal {
+	font-size: 16px;
+    line-height: 28px;
+    color: #929497;
+    font-family: "Work Sans";
+    font-weight: 400;
+}
+
+.text-especial {
+	color: white;
+}
+
+.cont-box-cajas {
+	position: relative;
+}
+
+.box-caja-uno {
+	width: 156px;
+    height: 130px;
+    background-color: #494949;
+    position: absolute;
+    right: 179px;
+    top: -41px;
+}
+
+.box-caja-dos {
+	width: 156px;
+    height: 130px;
+    background-color: #494949;
+    position: absolute;
+    right: 335px;
+    top: 63px;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.box-caja-tres {
+	width: 229px;
+    height: 170px;
+    /*background-color: #494949;*/
+    position: absolute;
+    right: 160px;
+    top: 155px;  
+    z-index: 3;
+    box-shadow: -30px 8.981px 49px rgba(38,35,36,0.75);
+    background-color: #313131;
+
+}    
+
+.box-caja-cuatro {
+	width: 156px;
+    height: 130px;
+    background-color: #494949;
+    position: absolute;
+    right: 287px;
+    top: 291px;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.box-caja-cinco {
+	width: 156px;
+    height: 130px;
+    background-color: #494949;
+    position: absolute;
+    right: 130px;
+    top: 378px;
+    /* opacity: 0.5; */
+    z-index: 0;
+}
+
+.borde-footer-uno {
+	border: 6px solid #ec3131;
+    padding: 49px 80px 40px 90px;
+    margin-top: 125px;
+    height: 249px;
+}
+
+.footer-logo {
+
+}
+
+.img-logo {
+	width: 287px;
+    height: 155px;
+}
+
+.footer-edition {
+
+}
+
+.text-edition {
+	line-height: 28px;
+    color: #929497;
+    font-family: "Work Sans";
+    font-weight: 400;
+}
+
+.especial-dos {
+	color: white;
+}
+
+.borde-footer-dos {
+	margin-top: 162px;
+}
+
+.text-join {
+	width: 425px;
+    height: 117px;
+    font-size: 21px;
+    line-height: 30px;
+    color: #ffffff;
+    font-family: "Work Sans";
+    font-weight: 300;
+}
+
+.box-footer-cajas {
+	display: flex;
+    justify-content: space-around;
+}
+
+.footer-box {
+	width: 143px;
+    height: 143px;
+    background-color: #313131;
+}
+
+.box-footer-boton {
+	text-align: center;
+    margin-top: 70px;
+}
+
+.footer-boton {
+	width: 350px;
+    height: 45px;
+    background-color: #ec3131;
+    border: 0px;
+}
+
+
+
+
+
+/* &&&&&&&&&& FINALIZA CSS CUARTA ETAPA &&&&&&&&&&&*/
