@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="css/main.css">
 
   <link rel="stylesheet"  href="bootstrap.min.css">
-  <link rel="stylesheet"  href="style.css">
+  <link rel="stylesheet"  href="css/style.css">
 
 
   <meta name="theme-color" content="#fafafa">
@@ -32,32 +32,53 @@
 <div class="container-fluid fondo-total">
     <div class="container contenedor-uno">
         <div class="row">
-            <div class="col-lg-6 ">
+            <div class="col-md-6 col-sm-12 ">
                 <div class="box-img-borde-rojo-tactics">
                     <img class="img-borde-derecha" src="imagenes/img-borde-derecha.png">
                     <img class="img-tactics" src="imagenes/tactics.png">
                 </div>                
             </div>
-            <div class="col-lg-6">
+            <div class="col-md-6 col-sm-12">
                 <div class="contenido-dos">
                     <div class="box-strong">
                         <strong class="strong">
-                            Level-up with the latest product management tactics
+                            Level-up with the latest product management tactics.
                         </strong>
                     </div>
                     <div class="box-teams">
-                        <p class="text-teams">A Free eBOOK for Moderm Software Product Management Teams</p>
+                        <p class="text-teams">A Free eBOOK for Modern Software Product Management Teams</p>
                     </div>
                     <div class="box-volume">
-                        <p class="text-volume"> Volume 2</p>
+                        <p class="text-volume"> VOLUME 2</p>
                     </div>
-                    <div class="box-tex-check">
+                    <div class="box-tex-check-especial">
                         <div class="check">
                             <img class="rectángulo-dos" src="imagenes/rectángulo-dos.png">
-                            <img class="rectángulo-uno" src="imagenes/rectángulo-uno.png">                        
+                            <img class="rectángulo-uno rectángulo-uno-especial" src="imagenes/rectángulo-uno.png">                        
                         </div>
                         <div class="text">
-                            <p class="text-insights"> Get insights from renowned products leader from companies like intercom, Tinder and intuit.</p>
+                            <p class="text-insights "> Get insights from renowned product <template slot="headers" slot-scope="props">
+                              <tr>
+                                <th>
+                                  <v-checkbox
+                                    primary
+                                    hide-details
+                                    @click.native="toggleAll"
+                                    :input-value="props.all"
+                                    :indeterminate="props.indeterminate"
+                                  ></v-checkbox>
+                                </th>
+                                <th
+                                  v-for="header in props.headers"
+                                  :key="header.text"
+                                  :class="['column sortable', pagination.descending ? 'desc' : 'asc', header.value === pagination.sortBy ? 'active' : '']"
+                                  @click="changeSort(header.value)"
+                                >
+                                  <v-icon small>arrow_upward</v-icon>
+                                    {{ header.text }}
+                                </th>
+                              </tr>
+                            </template> from companies like intercom, Tinder and intuit.</p>
                         </div>                    
                     </div>
 
@@ -141,7 +162,7 @@
 
     <div class="container contenedor-dos">
         <div class="row">            
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-12">
                 <div class="contenido-uno-area-dos">
                     <div class="box-text-">
                         <p class="text-tactics">
@@ -180,13 +201,13 @@
                         </div>                    
                     </div>
 
-                    <div class="box-tex-check check-dos">
+                    <div class="box-tex-check check-dos-especial">
                         <div class="check">
                             <img class="rectángulo-dos" src="imagenes/rectángulo-dos.png">
                             <img class="rectángulo-uno" src="imagenes/rectángulo-uno.png">       
                         </div>
                         <div class="text">
-                            <p>Avoid Becoming a ''Featury Factory</p>
+                            <p>Avoid Becoming a 'Featury Factory'</p>
                         </div>                    
                     </div>
 
@@ -211,7 +232,7 @@
                     </div>                   
                 </div>
             </div>             
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-12">
                 <div class="contenido-etapa-dos">
                     <img class="img-borde-izquierda" src="imagenes/img-borde-izquierda.png">
                     <img class="img-inside-uno" src="imagenes/inside- page.png">
@@ -230,7 +251,7 @@
 <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& INICIO TERCERA  ETAPA &&&&&&&&&&&&&&&&&&&&&&&6  -->
     <div class="container contenedor-tres">
         <div class="row">
-            <div class="col-md-12 box-tres-strong">
+            <div class="col-md-12 col-sm-12 box-tres-strong">
                 <strong class="strong-given">
                     Exclusive Insights From Talks Given Bay:
                 </strong>
@@ -315,7 +336,7 @@
                         </p>
                     </div>
                     <div class="box-cuatro-uno-radius">
-                        <img class="img-rostro" src="imagenes/rostro.png">
+                        <!-- <img class="img-rostro" src="imagenes/rostro.png"> -->
                     </div>
                 </div>
 
@@ -407,7 +428,7 @@
     <div class="container footer-uno">
         <div class="row borde-footer-uno">
             <div class="col-md-6">
-                <div class="-footer-logo">
+                <div class="footer-logo">
                     <img class="img-logo" src="imagenes/logo-p.png">
                 </div>                
             </div>
