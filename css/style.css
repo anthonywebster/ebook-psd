@@ -2265,3 +2265,16 @@ p.text-teams {
     font-family: 'Work Sans', sans-serif;
     font-weight: lighter;
 }
+
+p.text-volume{
+	font-family: 'Work Sans', sans-serif;
+}
+
+.text p {
+	font-family: 'Work Sans', sans-serif;
+}
+
+button.button-get-ebook{
+	font-family: 'Khula', sans-serif;
+	font-weight: bolder;
+}
