@@ -8,7 +8,7 @@
 }
 
 .box-img-borde-rojo-tactics {
-	margin-top: 346px;
+	margin-top: 220px;
 }
 
 .img-borde-derecha {
@@ -21,11 +21,12 @@
     height: 547px;
     position: relative;
     top: -710px;
-    right: -59px;
+	right: -59px;
+	box-shadow: 20px 20px 60px rgba(0,0,0,0.7);
 }
 
 .contenido-dos {
-	margin-top: 187px;
+	margin-top: 67px;
     
 }
 
