@@ -39,7 +39,7 @@
 
 .box-teams {
 	margin-top: 20px;
-	width: 328px;
+	/*width: 328px;*/
 	color: white;
 }
 
@@ -273,7 +273,7 @@
 
     position: absolute;
     width: 456px;
-    height: 259px;
+    height: 281px;
     /*box-shadow: 15px 25.981px 60px rgba(29, 39, 35, 0);*/
     box-shadow: 20px 20px 60px rgba(0,0,0,0.7);
     /*background-color: #262324;*/
@@ -289,7 +289,7 @@
 
 .text-cuatro-uno-big {
 	font-size: 16px;
-    line-height: 30px;
+    line-height: 28px;
     color: #929497;
     font-family: "Work Sans";
     font-weight: 400;
@@ -303,6 +303,11 @@
     font-weight: 400;
 }
 
+.box-cuatro-uno-text-small {
+	width: 200px;
+    margin-top: 10px;
+}
+
 .text-cuatro-uno-small {
 	font-size: 16px;
     line-height: 21px;
@@ -313,8 +318,8 @@
 
 .box-cuatro-uno-radius {
 	position: relative;
-    right: -299px;
-    top: -56px;
+    right: -275px;
+    top: -24px;
 }
 
 .box-cuatro-uno-radius div {
@@ -339,7 +344,8 @@
 }
 
 .box-cuatro-dos-text-big {
-
+	margin-bottom: 16px;
+    margin-top: 15px;
 }
 
 .text-cuatro-dos-big {
@@ -482,7 +488,7 @@
 }
 
 .text-red {
-	ont-size: 21px;
+	font-size: 21px;
     line-height: 33px;
     color: #ec3131;
     font-family: "Work Sans";
@@ -583,6 +589,7 @@
 }
 
 .text-edition {
+	font-size: 16px;
 	line-height: 28px;
     color: #929497;
     font-family: "Work Sans";
@@ -1345,7 +1352,11 @@
 	    border: 6px solid #ec3131;
 	    padding: 27px 23px 0px 19px;
 	    margin-top: 0px;
-	    height: 220px;
+	    height: 286px;
+	}
+
+	.footer-logo {
+	    margin-top: 39px;
 	}
 
 	.text-edition {
@@ -1466,7 +1477,7 @@
 	}
 
 	.box-tex-check {
-		height: 40px;
+		height: 49px;
 	}
 
 	.text-tactics {
@@ -1612,7 +1623,7 @@
 
 	.cont-box-text {
 		position: relative;
-    	top: 528px;
+    	top: 566px;
 	}
 
 	.cont-box-cajas {
@@ -1621,7 +1632,7 @@
 	}
 
 	.contenedor-cinco {
-		height: 777px;;
+		height: 859px;
    		margin-bottom: 30px;
 	}
 
@@ -1643,8 +1654,12 @@
     	height: 133px;
 	}
 
+	.box-text-join {
+		margin-bottom: 42px;
+	}
+
 	.borde-footer-dos {
-	    margin-top: 70px;
+	    margin-top: 64px;
 	}
 
 }
@@ -1833,8 +1848,8 @@
 	.box-cuatro-dos-radius {
 		width: 90px;
 	    height: 90px;
-	    right: -159px;
-	    top: -51px;
+	    right: -119px;
+    	top: -34px;
 	    position: relative;
 	}
 
@@ -2013,11 +2028,6 @@
 
 }
 
-@media screen and (min-width: ) (max-width: 404px) {
-
-}
-
-
 @media screen and (max-width: 396px) {
 	.box-cuatro-uno {
 	    position: absolute;
@@ -2066,6 +2076,11 @@
 
 @media screen and (max-width: 341px) {
 
+
+	.contenedor-cinco {
+	    height: 980px;
+	}
+
 	.img-borde-derecha {
 		width: 253px;
     	height: 314px;
@@ -2097,7 +2112,7 @@
 	}
 
 	.contenedor-dos {
-		height: 932px;
+			height: 1010px;
 	}
 
 	
@@ -2155,7 +2170,7 @@
 	}
 
 	.text-cuatro-uno-big {
-		height: 248px;
+		height: 212px;
 	    font-size: 17px;
 	    line-height: 24px;
 	    color: #929497;
@@ -2169,8 +2184,8 @@
 	    height: 80px;
 	    border-radius: 50px;
 	    position: relative;
-	    right: -130px;
-	    top: -12px;
+	    right: -109px;
+    	top: 2px;
 	}
 
 	.box-cuatro-dos {
@@ -2226,6 +2241,7 @@
 	    padding: 28px 20px 17px 20px;
 	    margin-top: 0px;
 	    height: auto;
+	    margin-top: 50px;
 	}
 
 	.img-logo {
@@ -2247,13 +2263,24 @@
 		width: 251px;
 	}
 
-
-
-
-
-
+	.cont-box-cajas {
+	    height: 480px;
+	    top: 122px;
+	}
 
 }
+
+@media screen and (min-width:339px) and (max-width:341px) {
+	.check-unico {
+	    position: relative;
+	    left: -9px;
+	    top: -5px;
+	}
+}
+
+
+
+
 	
 /* Fixing fonts */
 strong.strong, strong.strong-given {
@@ -2263,7 +2290,9 @@ strong.strong, strong.strong-given {
 
 p.text-teams {
     font-family: 'Work Sans', sans-serif;
-    font-weight: lighter;
+    font-size: 21px;
+    color: #ffffff;
+    font-weight: 300;
 }
 
 p.text-volume{
