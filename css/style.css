@@ -2255,3 +2255,13 @@
 
 }
 	
+/* Fixing fonts */
+strong.strong {
+    font-family: 'Khula', sans-serif;
+    font-weight: 600;
+}
+
+p.text-teams {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: lighter;
+}
