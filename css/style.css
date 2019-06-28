@@ -106,7 +106,8 @@
 }
 
 .contenedor-uno {
-	height: 950px
+	height: 950px;
+	margin-bottom: -90px;
 }
 
 
@@ -703,7 +704,7 @@
 
 
 	.box-img-borde-rojo-tactics {
-	    margin-top: 321px;
+	    margin-top: 160px;
 	}
 
 
@@ -721,7 +722,7 @@
 	}
 
 	.contenido-dos {
-		margin-top: 224px;
+		margin-top: 67px;
 	}
 
 	.strong {
@@ -990,7 +991,7 @@
 	}
 
 	.box-img-borde-rojo-tactics {
-		    margin-top: 300px;
+		    margin-top: 160px;
 	}
 
 	.img-borde-derecha {
@@ -1007,7 +1008,7 @@
 	}
 
 	.contenido-dos {
-		margin-top: 207px;
+		margin-top: 67px;
 	}
 
 	.strong {
