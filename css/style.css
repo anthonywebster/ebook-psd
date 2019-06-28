@@ -2256,7 +2256,7 @@
 }
 	
 /* Fixing fonts */
-strong.strong {
+strong.strong, strong.strong-given {
     font-family: 'Khula', sans-serif;
     font-weight: 600;
 }
@@ -2264,4 +2264,17 @@ strong.strong {
 p.text-teams {
     font-family: 'Work Sans', sans-serif;
     font-weight: lighter;
+}
+
+p.text-volume{
+	font-family: 'Work Sans', sans-serif;
+}
+
+.text p {
+	font-family: 'Work Sans', sans-serif;
+}
+
+button.button-get-ebook, button.footer-boton{
+	font-family: 'Khula', sans-serif !important;
+	font-weight: bolder !important;
 }
